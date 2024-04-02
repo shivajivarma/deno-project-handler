@@ -1,0 +1,14 @@
+{
+  "name": "deno-project-handler",
+  "version": "1.0.0",
+  "exports": "./main.ts",
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@codemonument/cliffy/command": "jsr:@codemonument/cliffy@^1.0.0-rc.3/command",
+    "@codemonument/cliffy/prompt": "jsr:@codemonument/cliffy@^1.0.0-rc.3/prompt",
+    "@std/path": "jsr:@std/path@^0.220.1",
+    "@std/fs": "jsr:@std/fs@^0.218.2"
+  }
+}
