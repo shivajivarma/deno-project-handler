@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "exports": "./main.ts",
   "tasks": {
-    "dev": "deno run --watch main.ts"
   },
   "imports": {
     "@codemonument/cliffy/command": "jsr:@codemonument/cliffy@^1.0.0-rc.3/command",
