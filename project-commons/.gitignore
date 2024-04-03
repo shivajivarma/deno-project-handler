@@ -18,3 +18,7 @@ node_modules/
 
 # Coverage files
 *.lcov
+
+Temporary files
+.temp/
+.cache/

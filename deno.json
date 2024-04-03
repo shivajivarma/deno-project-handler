@@ -4,6 +4,17 @@
   "exports": "./main.ts",
   "tasks": {
   },
+  "exclude": [
+    "dist",
+    ".run",
+    ".github/",
+    "version.json"
+  ],
+  "publish": {
+    "exclude": [
+      "test/"
+    ]
+  },
   "imports": {
     "@codemonument/cliffy/command": "jsr:@codemonument/cliffy@^1.0.0-rc.3/command",
     "@codemonument/cliffy/prompt": "jsr:@codemonument/cliffy@^1.0.0-rc.3/prompt",
